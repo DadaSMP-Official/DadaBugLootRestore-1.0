@@ -1,0 +1,14 @@
+name: DadaBugLootRestore
+version: 1.0.0
+main: it.dadasmp.bugloot.DadaBugLootRestore
+api-version: "1.20"
+author: DadaSMP
+description: Salva il loot alla morte e permette allo staff di ridarlo se la morte era causata da bug.
+commands:
+  bugloot:
+    description: Gestione restore loot da bug
+    usage: /bugloot <restore|list|clear> <player>
+    permission: dadabugloot.admin
+permissions:
+  dadabugloot.admin:
+    default: op
